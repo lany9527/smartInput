@@ -1,0 +1,12 @@
+<div class="input-group">
+  <input
+    type="text"
+    class="form-control"
+    placeholder="请输入百分比"
+    aria-describedby="basic-addon2"
+    ng-model="$ctrl.initialPercent"
+    ng-change="$ctrl.modifyInput($ctrl.initialPercent)"
+  >
+  传输：<span>{{$ctrl.data}}</span>
+  <button ng-click="$ctrl.modifyInput($ctrl.initialPercent)">test</button>
+</div>
